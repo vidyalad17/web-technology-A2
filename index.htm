@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Registration Page
+            </title>
+            <link href="css.css" rel="stylesheet">
+            <script src="script.js"></script>
+        </head>
+            
+            <body>
+              <div class="container">
+                  <nav class="navbar">
+        
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#register">Register</a></li>
+                    <li><a href="#display">Display</a></li>
+                    </ul>  
+                </nav>     
+                  <section id="home">
+                    <h1 style="color:white;">Musafir</h1>
+                    <p> register today for the travel event</p>
+                </section>
+                <section id="register">
+                   <div class="regform">
+                       <h2 id="he1"> Registration</h2>
+                       
+                       <div class="main">
+                           <form id="myform">
+                               <div id="name">
+                                   <h3 class="name">Name</h3>
+                                   <input  class="fullname" type="text" name="name" id="n1">
+                                </div>
+                               <h3 class="name">Email</h3>
+                               <input class="email" type="text" name="email" id="n2">
+                               <h3 class="name">Age</h3>
+                               <input class="code" type="text" name="agr" id="n3">
+                               
+                               <h3 class="name">Gender</h3>
+                               <select class="option"  name="flat_type" id="n4">
+                               <option disabled="disabled" selected="selected">---Choose Option</option>
+                               <option>male</option>
+                               <option>female</option>
+                               <option>other</option>
+                               </select>
+                               
+                            <button type="submit" onclick="displayDetails()">Register</button>
+                            
+                            
+                        </form>
+
+                       </div>
+                   </div>
+                </section>
+                <section id="display">
+                <centre id="c1">Registered people</centre>
+                    <table id="displaytable" class="table">
+                        <tr>
+                            <th>Name</th>
+                            <th>Email</th>
+                            <th>Age</th>
+                            <th>Gender</th>
+                        </tr>
+                    </table>
+                </section>
+            </div>
+            <script src="script.js"></script>
+           </body>
+           
+        
+    </html>
+   
